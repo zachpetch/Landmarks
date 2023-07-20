@@ -32,6 +32,8 @@
 		B3B3637B2A57318B0085CC65 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B3637A2A57318B0085CC65 /* Badge.swift */; };
 		B3B3637E2A5743760085CC65 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = B3B3637D2A5743760085CC65 /* hikeData.json */; };
 		B3B363802A57438E0085CC65 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B3637F2A57438E0085CC65 /* Hike.swift */; };
+		B3CA80A32A69055800DB3047 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CA80A22A69055800DB3047 /* CategoryRow.swift */; };
+		B3CA80A52A69079800DB3047 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CA80A42A69079800DB3047 /* CategoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		B3B3637A2A57318B0085CC65 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		B3B3637D2A5743760085CC65 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		B3B3637F2A57438E0085CC65 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		B3CA80A22A69055800DB3047 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		B3CA80A42A69079800DB3047 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				B327D2E22A58B4A3001A813C /* CategoryHome.swift */,
+				B3CA80A22A69055800DB3047 /* CategoryRow.swift */,
+				B3CA80A42A69079800DB3047 /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3CA80A32A69055800DB3047 /* CategoryRow.swift in Sources */,
 				B36A7EC62A4E8384001906CA /* ContentView.swift in Sources */,
 				B327D2E32A58B4A3001A813C /* CategoryHome.swift in Sources */,
 				B30A548A2A575C9800413D18 /* HikeGraph.swift in Sources */,
@@ -274,6 +281,7 @@
 				B30A54892A575C9800413D18 /* GraphCapsule.swift in Sources */,
 				B36A7EC42A4E8384001906CA /* LandmarksApp.swift in Sources */,
 				B3B3636F2A55E52C0085CC65 /* FavoriteButton.swift in Sources */,
+				B3CA80A52A69079800DB3047 /* CategoryItem.swift in Sources */,
 				B30A548B2A575C9800413D18 /* HikeDetail.swift in Sources */,
 				B3B363732A56756C0085CC65 /* HexagonParameters.swift in Sources */,
 				B3B363802A57438E0085CC65 /* Hike.swift in Sources */,
