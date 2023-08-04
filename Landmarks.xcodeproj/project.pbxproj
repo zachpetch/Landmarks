@@ -38,6 +38,7 @@
 		B3B363802A57438E0085CC65 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B3637F2A57438E0085CC65 /* Hike.swift */; };
 		B3CA80A32A69055800DB3047 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CA80A22A69055800DB3047 /* CategoryRow.swift */; };
 		B3CA80A52A69079800DB3047 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CA80A42A69079800DB3047 /* CategoryItem.swift */; };
+		B3D10D412A7DACA6004B1226 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D10D402A7DACA6004B1226 /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		B3B3637F2A57438E0085CC65 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		B3CA80A22A69055800DB3047 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		B3CA80A42A69079800DB3047 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		B3D10D402A7DACA6004B1226 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			children = (
 				B3560CBB2A69EB48001718DA /* ProfileHost.swift */,
 				B33861A62A69EF1400F238D6 /* ProfileSummary.swift */,
+				B3D10D402A7DACA6004B1226 /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				B3B363802A57438E0085CC65 /* Hike.swift in Sources */,
 				B3B363792A57304D0085CC65 /* RotatedBadgeSymbol.swift in Sources */,
 				B3B363772A5729990085CC65 /* BadgeSymbol.swift in Sources */,
+				B3D10D412A7DACA6004B1226 /* ProfileEditor.swift in Sources */,
 				B34B68112A553D91008DA15D /* LandmarkList.swift in Sources */,
 				B30A548C2A575C9800413D18 /* HikeView.swift in Sources */,
 				B34B68132A553FC6008DA15D /* LandmarkDetail.swift in Sources */,
